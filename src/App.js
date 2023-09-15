@@ -38,7 +38,7 @@ function App() {
           id='QRCode'
         />
       </div>
-      <p>{inputValue}</p>
+      <p style={{overflowX:'hidden'}}>{inputValue}</p>
       <input
         type='text'
         onChange={(e) => setInputValue(e.target.value)}
